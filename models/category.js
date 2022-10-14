@@ -15,10 +15,7 @@ const categorySchema = new mongoose.Schema(
             unique: true,
             index: true
         },
-        image: {
-            url: String,
-            key: String
-        },
+        imageUrl:String,
         content: {
             type: {},
             min: 20,
